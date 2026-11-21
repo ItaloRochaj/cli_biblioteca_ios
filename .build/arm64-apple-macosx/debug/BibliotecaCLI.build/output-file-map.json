@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/primary.swiftdeps"
+  },
+  "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/App/BibliotecaApp.swift": {
+    "dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaApp.d",
+    "object": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaApp.swift.o",
+    "swiftmodule": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaApp.swiftdeps",
+    "diagnostics": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaApp.dia"
+  },
+  "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/Documento.swift": {
+    "dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Documento.d",
+    "object": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Documento.swift.o",
+    "swiftmodule": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Documento~partial.swiftmodule",
+    "swift-dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Documento.swiftdeps",
+    "diagnostics": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Documento.dia"
+  },
+  "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/Livro.swift": {
+    "dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Livro.d",
+    "object": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Livro.swift.o",
+    "swiftmodule": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Livro~partial.swiftmodule",
+    "swift-dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Livro.swiftdeps",
+    "diagnostics": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Livro.dia"
+  },
+  "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/LivroDigital.swift": {
+    "dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LivroDigital.d",
+    "object": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LivroDigital.swift.o",
+    "swiftmodule": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LivroDigital~partial.swiftmodule",
+    "swift-dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LivroDigital.swiftdeps",
+    "diagnostics": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LivroDigital.dia"
+  },
+  "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/main.swift": {
+    "dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/main.d",
+    "object": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/main.swift.o",
+    "swiftmodule": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/main.swiftdeps",
+    "diagnostics": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/main.dia"
+  },
+  "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Services/BibliotecaService.swift": {
+    "dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaService.d",
+    "object": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaService.swift.o",
+    "swiftmodule": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaService~partial.swiftmodule",
+    "swift-dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaService.swiftdeps",
+    "diagnostics": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaService.dia"
+  },
+  "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Utils/LeitorConsole.swift": {
+    "dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LeitorConsole.d",
+    "object": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LeitorConsole.swift.o",
+    "swiftmodule": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LeitorConsole~partial.swiftmodule",
+    "swift-dependencies": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LeitorConsole.swiftdeps",
+    "diagnostics": "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LeitorConsole.dia"
+  }
+}

@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E76F2C5430AF77CE00E92482 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76F2C5330AF77C700E92482 /* Package.swift */; };
+		E7E3F1D830B117EC00411297 /* BibliotecaCLI in Frameworks */ = {isa = PBXBuildFile; productRef = E7E3F1D730B117EC00411297 /* BibliotecaCLI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		E76F2C4730AF75F600E92482 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,12 +25,18 @@
 
 /* Begin PBXFileReference section */
 		E76F2C4930AF75F600E92482 /* cli_biblioteca_ios */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cli_biblioteca_ios; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76F2C5330AF77C700E92482 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E76F2C4B30AF75F600E92482 /* cli_biblioteca_ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = cli_biblioteca_ios;
+			sourceTree = "<group>";
+		};
+		E76F2C5630AF781000E92482 /* Source */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -35,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E3F1D830B117EC00411297 /* BibliotecaCLI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +56,8 @@
 		E76F2C4030AF75F600E92482 = {
 			isa = PBXGroup;
 			children = (
+				E76F2C5630AF781000E92482 /* Source */,
+				E76F2C5330AF77C700E92482 /* Package.swift */,
 				E76F2C4B30AF75F600E92482 /* cli_biblioteca_ios */,
 				E76F2C4A30AF75F600E92482 /* Products */,
 			);
@@ -74,9 +88,11 @@
 			);
 			fileSystemSynchronizedGroups = (
 				E76F2C4B30AF75F600E92482 /* cli_biblioteca_ios */,
+				E76F2C5630AF781000E92482 /* Source */,
 			);
 			name = cli_biblioteca_ios;
 			packageProductDependencies = (
+				E7E3F1D730B117EC00411297 /* BibliotecaCLI */,
 			);
 			productName = cli_biblioteca_ios;
 			productReference = E76F2C4930AF75F600E92482 /* cli_biblioteca_ios */;
@@ -106,6 +122,9 @@
 			);
 			mainGroup = E76F2C4030AF75F600E92482;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E7E3F1D630B117EC00411297 /* XCLocalSwiftPackageReference "../cli_biblioteca_ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E76F2C4A30AF75F600E92482 /* Products */;
 			projectDirPath = "";
@@ -121,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76F2C5430AF77CE00E92482 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +309,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E7E3F1D630B117EC00411297 /* XCLocalSwiftPackageReference "../cli_biblioteca_ios" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../cli_biblioteca_ios;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7E3F1D730B117EC00411297 /* BibliotecaCLI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BibliotecaCLI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E76F2C4130AF75F600E92482 /* Project object */;
 }

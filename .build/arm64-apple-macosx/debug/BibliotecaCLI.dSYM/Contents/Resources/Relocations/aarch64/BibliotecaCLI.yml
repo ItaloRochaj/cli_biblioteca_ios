@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI'
+relocations:     []
+...

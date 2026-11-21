@@ -1,0 +1,367 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.BibliotecaCLI-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/sources",
+      "importPath" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/App/BibliotecaApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/Documento.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/Livro.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/LivroDigital.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Services/BibliotecaService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Utils/LeitorConsole.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "BibliotecaCLI",
+      "moduleOutputPath" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/Modules/BibliotecaCLI.swiftmodule",
+      "objects" : [
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaApp.swift.o",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Documento.swift.o",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Livro.swift.o",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LivroDigital.swift.o",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/main.swift.o",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaService.swift.o",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LeitorConsole.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx15.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "BibliotecaCLI_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "cli_biblioteca_ios"
+      ],
+      "outputFileMapPath" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Documento.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Livro.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LivroDigital.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LeitorConsole.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/Modules/BibliotecaCLI.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/App/BibliotecaApp.swift",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/Documento.swift",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/Livro.swift",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/LivroDigital.swift",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/main.swift",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Services/BibliotecaService.swift",
+        "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Utils/LeitorConsole.swift"
+      ],
+      "tempsPath" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "BibliotecaCLI" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "BibliotecaCLI",
+      "-package-name",
+      "cli_biblioteca_ios",
+      "-c",
+      "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/App/BibliotecaApp.swift",
+      "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/Documento.swift",
+      "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/Livro.swift",
+      "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/LivroDigital.swift",
+      "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/main.swift",
+      "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Services/BibliotecaService.swift",
+      "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Utils/LeitorConsole.swift",
+      "-I",
+      "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx15.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "BibliotecaCLI_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "cli_biblioteca_ios",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "BibliotecaCLI" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI-entitlement.plist"
+    },
+    "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/App/BibliotecaApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/Documento.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/Livro.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/LivroDigital.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Models/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Services/BibliotecaService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/cli_biblioteca_ios/Utils/LeitorConsole.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/sources"
+    },
+    "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/BibliotecaService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Documento.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LeitorConsole.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/Livro.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/LivroDigital.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/BibliotecaCLI.product/Objects.LinkFileList"
+    },
+    "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/italo.rocha/Documents/GitHub/cli_biblioteca_ios/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
